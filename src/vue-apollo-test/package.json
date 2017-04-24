@@ -1,0 +1,30 @@
+{
+  "name": "test-apollo",
+  "description": "Vue.js with apollo project",
+  "version": "1.0.0",
+  "author": "karonl <karonl@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "apollo-client": "^1.0.3",
+    "graphql-tag": "^2.0.0",
+    "vue": "^2.2.6",
+    "vue-apollo": "^2.1.0-beta.5",
+    "vue-router": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-alpha.7",
+    "babel-loader": "^7.0.0-beta.1",
+    "babel-preset-latest": "^7.0.0-alpha.7",
+    "cross-env": "^4.0.0",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
